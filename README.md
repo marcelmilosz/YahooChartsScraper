@@ -11,6 +11,8 @@ STOCK = ['BTC-USD', '^DJI', '^IXIC']
 
 STARTING_DATE and ENDING_DATE which are strings with format 'yy-mm-dd' to specify the time interval
 
+We take data from: https://finance.yahoo.com/quote/BTC-USD?p=BTC-USD&.tsrc=fin-srch
+
 ![chart](https://user-images.githubusercontent.com/61027817/178531903-88e6961e-336e-42c4-be1e-6fdf844b1bea.PNG)
 
 
