@@ -4,7 +4,7 @@ This program gets data from Yahoo, you chose what charts you want to get (giving
 You can use this to get some specific charts from yahoo to compare and analyze them 
 For example, we can look at bitcoin, nasdaq and sp500 on single window. 
 
-There are only two variables that you need to change
+There are only three variables that you need to change
 
 STOCK where you input yahoo symbols to get chart 
 STOCK = ['BTC-USD', '^DJI', '^IXIC']
