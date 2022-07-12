@@ -1,20 +1,15 @@
-from audioop import add
 import yfinance as yf   
-import matplotlib.pyplot as plt 
 import pandas as pd
-import plotly.express as px
 import os 
 import plotly.graph_objects as go
 import numpy as np
 
 from datetime import *
 from calendar import c
-from tkinter import END, TRUE
-from numpy import char
 from plotly.subplots import make_subplots
 
 # All stocks that we want to put on charts (PUT YOURS HERE FROM: https://finance.yahoo.com/quote/%5EDJI?p=%5EDJI)
-STOCKS = ['BTC-USD', '^DJI', "^IXIC"]  
+STOCKS = ['BTC-USD', '^DJI']  
 
 lStocks = len(STOCKS)               # Just a len of those stocks :D
 
